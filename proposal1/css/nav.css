@@ -23,7 +23,6 @@
 	text-decoration: none;
 	font-weight: bold;
 	position: relative;
-	/*clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);*/
 	background-color: #000;
 	border: 1px solid white;
 	transition: background-color 0.3s;
