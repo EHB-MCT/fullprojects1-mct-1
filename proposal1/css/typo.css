@@ -1,9 +1,15 @@
 /* TYPOGRAPHY */
 
 h1 {
+	font-family: "Ethnocentric";
+	font-size: 48px;
+	color: #ef3a37;
 }
 
 h2 {
+	font-family: "Ethnocentric";
+	font-size: 38px;
+	color: #ffffff;
 }
 
 h3 {
@@ -19,6 +25,9 @@ h6 {
 }
 
 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #ffffff;
 }
 
 a {
