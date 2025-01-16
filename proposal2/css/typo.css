@@ -1,6 +1,9 @@
 /* TYPOGRAPHY */
 
 h1 {
+	font-size: 16pt;
+	font-weight: 700;
+	color: #ff3333;
 }
 
 h2 {
@@ -10,7 +13,7 @@ h2 {
 
 h3 {
 	font-size: 16pt;
-	font-weight: 700;
+	font-weight: 600;
 	color: #ff3333;
 }
 
