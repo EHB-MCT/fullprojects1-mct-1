@@ -1,9 +1,14 @@
 /* TYPOGRAPHY */
 
-h1 {
+.home h1 {
 	font-size: 16pt;
 	font-weight: 700;
 	color: #ff3333;
+}
+
+h1 {
+	font-size: 32pt;
+	font-weight: 800;
 }
 
 h2 {
@@ -28,9 +33,7 @@ h5 {
 	font-weight: 700;
 }
 
-h6 {
-	// N/A
-}
+/* h6 n/a */
 
 p {
 	font-size: 12pt;
