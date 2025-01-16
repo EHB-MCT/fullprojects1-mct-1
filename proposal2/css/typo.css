@@ -1,0 +1,44 @@
+/* TYPOGRAPHY */
+
+h1 {
+}
+
+h2 {
+	font-size: 24pt;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 16pt;
+	font-weight: 700;
+	color: #ff3333;
+}
+
+h4 {
+	font-size: 14pt;
+	font-weight: 600;
+	color: #66cc99;
+}
+
+h5 {
+	font-size: 14pt;
+	font-weight: 700;
+}
+
+h6 {
+}
+
+p {
+	font-size: 12pt;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: #66cc99;
+}
+
+a:hover {
+	color: #a3e0c2;
+	text-decoration: underline;
+}

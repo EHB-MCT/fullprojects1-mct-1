@@ -33,7 +33,7 @@
 
 .menu-item:hover {
 	background-color: #555;
-	color: red;
+	color: #ef3a37;
 }
 
 .menu-item.logo img {
@@ -45,11 +45,11 @@
 }
 
 .menu-item.inschrijven {
-	background-color: red;
+	background-color: #ef3a37;
 	border: none;
 }
 
 .menu-item.inschrijven:hover {
 	background-color: black;
-	color: red;
+	color: #ef3a37;
 }

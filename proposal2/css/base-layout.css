@@ -1,0 +1,7 @@
+/* BASE LAYOUT FLEXBOX */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+
+body {
+	margin: 0;
+	font-family: "Fira Code";
+}

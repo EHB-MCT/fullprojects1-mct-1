@@ -10,7 +10,7 @@ a {
 
 /* Verzenden knop */
 .btn-submit {
-	background-color: red;
+	background-color: #ef3a37;
 	color: black;
 	font-size: 18px;
 	font-weight: bold;
@@ -20,7 +20,7 @@ a {
 }
 
 .btn-submit:hover {
-	background-color: darkred;
+	background-color: #b22425;
 	color: white;
 }
 
@@ -33,36 +33,16 @@ a {
 	text-decoration: none;
 	text-align: center;
 	color: black;
-	background-color: red;
+	background-color: #ef3a37;
 	border: 3px solid black;
 	text-transform: uppercase;
 	cursor: pointer;
 	user-select: none;
 	transition: background-color 0.3s, color 0.3s;
 }
-.btn-secondary::before,
-.btn-secondary::after {
-	content: "";
-	position: absolute;
-	width: 15px;
-	height: 15px;
-	background-color: white;
-	z-index: 1;
-}
-.btn-secondary::before {
-	top: -3px;
-	left: -3px;
-	border-top-left-radius: 0;
-}
-
-.btn-secondary::after {
-	bottom: -3px;
-	right: -3px;
-	border-bottom-right-radius: 0;
-}
 
 .btn-secondary:hover {
-	background-color: darkred;
+	background-color: #b22425;
 	color: white;
 }
 
@@ -84,9 +64,9 @@ a {
 
 .btn-primary:hover {
 	background-color: #fff;
-	color: red;
-	border: 2px solid red;
-	box-shadow: 5px 5px 0px red;
+	color: #ef3a37;
+	border: 2px solid #ef3a37;
+	box-shadow: 5px 5px 0px #ef3a37;
 }
 .btn-primary:active {
 	background-color: black;
@@ -95,7 +75,7 @@ a {
 }
 
 .btn-submit {
-	background-color: red;
+	background-color: #ef3a37;
 	color: black;
 	font-size: 18px;
 	font-weight: bold;
@@ -107,6 +87,6 @@ a {
 }
 
 .btn-submit:hover {
-	background-color: darkred;
+	background-color: #b22425;
 	color: white;
 }
