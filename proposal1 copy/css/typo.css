@@ -1,34 +1,39 @@
 /* TYPOGRAPHY */
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: "Ethnocentric";
-	font-size: 48px;
+}
+
+h1 {
+	font-size: 32px;
 	color: #ef3a37;
 }
 
 h2 {
-	font-family: "Ethnocentric";
-	font-size: 38px;
-	color: #ffffff;
+	font-size: 26px;
+	color: gray;
 }
 
 h3 {
 }
 
 h4 {
-}
-
-h5 {
-}
-
-h6 {
+	color: #ef3a37;
 }
 
 p {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	color: #ffffff;
+	font-size: 12pt;
 }
 
 a {
+	color: #ef3a37;
+}
+
+a:hover {
+	color: #ef3a377b;
 }
