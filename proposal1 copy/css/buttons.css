@@ -22,6 +22,7 @@ a {
 
 .btn-secondary:hover {
 	background-color: #ef3a378f;
+	color: firebrick;
 }
 
 .btn-primary {
