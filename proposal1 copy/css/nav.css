@@ -63,15 +63,11 @@
 	color: whitesmoke;
 }
 
-.menu-item:not(.logo):hover {
-	/* clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%); */
-}
-
 .menu-item.inschrijven:hover {
 	background-color: black;
 	color: #ef3a37;
 	clip-path: polygon(10% 0, 100% 0, 90% 100%, 0% 100%);
-	border-top-left-radius: 50px 10px;
-	border-top-right-radius: 20px 100px;
+	border-top-left-radius: 30% 90%;
+	border-bottom-right-radius: 30% 90%;
 	transition-duration: 0.5s;
 }
