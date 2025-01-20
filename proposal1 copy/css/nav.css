@@ -43,8 +43,7 @@
 }
 
 .menu-item.logo img {
-	height: 50px;
-	padding: 10px;
+	width: 70px;
 }
 
 .menu-item.logo:hover {
