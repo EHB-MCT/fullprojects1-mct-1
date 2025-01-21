@@ -12,8 +12,8 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	padding: 40px;
-	gap: 20px;
+	padding: 20px;
+	gap: 5px;
 }
 
 .text-list-container {
@@ -29,11 +29,14 @@ body {
 	color: white;
 	padding: 40px;
 	max-width: 50%;
+
+	position: relative;
+	overflow: hidden;
 }
 
 .text-section h1 {
 	color: #e63946;
-	font-size: 36px;
+	font-size: 24px;
 	margin-bottom: 20px;
 }
 
@@ -43,45 +46,41 @@ body {
 	margin-bottom: 20px;
 }
 
-.text-section .btn {
-	display: inline-block;
-	background-color: #e63946;
-	color: white;
-	padding: 10px 20px;
-	text-decoration: none;
-	font-weight: bold;
-	border-radius: 5px;
-	transition: background-color 0.3s;
-}
-
-.text-section .btn:hover {
-	background-color: #d62828;
-}
-
 .list-section {
 	position: relative;
 	padding: 40px;
 	background-color: #f1f1f1;
 	color: #333;
-	max-width: 100%;
+	max-width: 40%;
 	box-sizing: border-box;
-	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	-webkit-clip-path: polygon(
+		25% 5%,
+		75% 5%,
+		100% 50%,
+		75% 95%,
+		25% 95%,
+		0% 50%
+	);
+	clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
 	z-index: 1;
 	text-align: center;
+	overflow: hidden;
 }
 
 .list-section h2 {
 	color: #e63946;
 	margin-bottom: 20px;
 	font-size: 28px;
+	margin-top: 80px;
 }
 
 .list-section ul {
 	list-style: none;
-	padding: 0;
+	padding: 20;
 	margin: 0;
-	font-size: 16px;
-	line-height: 1.8;
+	font-size: 14px;
+	line-height: 1.5;
+	text-align: c;
 }
 
 .list-section ul li {
@@ -97,7 +96,8 @@ body {
 }
 
 .image-section img {
-	max-width: 80%;
+	width: 340px;
+	height: 100%;
 	border-radius: 10px;
 	background-color: transparent;
 	mix-blend-mode: multiply;
