@@ -8,3 +8,71 @@ body {
 	font-family: "Fira Code";
 	font-size: 16px;
 }
+
+.text-section {
+	flex: 1;
+	background-color: #333;
+	color: white;
+	padding: 40px;
+}
+
+.text-section h1 {
+	color: #e63946;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.text-section p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.text-section .btn {
+	display: inline-block;
+	background-color: #e63946;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
+
+.text-section .btn:hover {
+	background-color: #d62828;
+}
+
+.image-section {
+	flex: 1;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+}
+
+.image-section h2 {
+	color: #e63946;
+	margin-bottom: 20px;
+	font-size: 28px;
+}
+
+.image-section ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.8;
+}
+
+.image-section ul li {
+	margin-bottom: 10px;
+}
+
+.image-section img {
+	max-width: 100%;
+	border-radius: 10px;
+	margin-top: 20px;
+}
