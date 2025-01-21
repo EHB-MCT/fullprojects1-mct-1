@@ -1,6 +1,12 @@
 /* BASE LAYOUT FLEXBOX */
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	background-color: whitesmoke;
@@ -50,7 +56,7 @@ body {
 
 .list-section {
 	position: relative;
-	padding: 40px;
+	padding: 65px;
 	background-color: #f1f1f1;
 	color: #333;
 	max-width: 40%;
@@ -64,7 +70,6 @@ body {
 		0% 50%
 	);
 	clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-
 	z-index: 1;
 	text-align: center;
 	overflow: hidden;
@@ -104,4 +109,59 @@ body {
 	border-radius: 10px;
 	background-color: transparent;
 	mix-blend-mode: multiply;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
+
+.hexagon-wrapper {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin: 20px 0;
+}
+
+.hexagon {
+	width: auto;
+	aspect-ratio: 1;
+	background-color: #333;
+	-webkit-clip-path: polygon(
+		25% 5%,
+		75% 5%,
+		100% 50%,
+		75% 95%,
+		25% 95%,
+		0% 50%
+	);
+	clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hexagon img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	clip-path: inherit;
+}
+
+.content-section {
+	max-width: 800px;
+}
+
+.content-section h1 {
+	font-size: 2rem;
+	color: #e63946;
+	margin-bottom: 10px;
+}
+
+.content-section p {
+	line-height: 1.6;
+	font-size: 1rem;
 }

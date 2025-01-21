@@ -3,7 +3,9 @@
 .menu-container {
 	background-color: whitesmoke;
 	border-bottom: 2px solid whitesmoke;
-	padding: 0 10px; /* Add padding on the left and right sides */
+	padding: 0 10px;
+	top: 0;
+	z-index: 2;
 }
 
 .menu {
@@ -25,8 +27,8 @@
 	font-weight: bold;
 	font-family: "Ethnocentric", sans-serif;
 	font-size: 16px;
-	padding: 20px 10px; /* Ensure there's space between the item text and the edges */
-	box-sizing: border-box; /* Make sure padding and border are part of the element's total width */
+	padding: 20px 10px;
+	box-sizing: border-box;
 	overflow: hidden;
 }
 
