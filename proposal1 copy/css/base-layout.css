@@ -4,9 +4,23 @@
 body {
 	margin: 0;
 	background-color: whitesmoke;
-	/* bg whitesmoke ipv zwart  */
 	font-family: "Fira Code";
 	font-size: 16px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 40px;
+	gap: 20px;
+}
+
+.text-list-container {
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+	flex: 1;
 }
 
 .text-section {
@@ -14,6 +28,7 @@ body {
 	background-color: #333;
 	color: white;
 	padding: 40px;
+	max-width: 50%;
 }
 
 .text-section h1 {
@@ -43,23 +58,25 @@ body {
 	background-color: #d62828;
 }
 
-.image-section {
-	flex: 1;
+.list-section {
 	position: relative;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	padding: 40px;
+	background-color: #f1f1f1;
+	color: #333;
+	max-width: 100%;
+	box-sizing: border-box;
+	clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	z-index: 1;
+	text-align: center;
 }
 
-.image-section h2 {
+.list-section h2 {
 	color: #e63946;
 	margin-bottom: 20px;
 	font-size: 28px;
 }
 
-.image-section ul {
+.list-section ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -67,12 +84,21 @@ body {
 	line-height: 1.8;
 }
 
-.image-section ul li {
+.list-section ul li {
 	margin-bottom: 10px;
 }
 
+.image-section {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+}
+
 .image-section img {
-	max-width: 100%;
+	max-width: 80%;
 	border-radius: 10px;
-	margin-top: 20px;
+	background-color: transparent;
+	mix-blend-mode: multiply;
 }
