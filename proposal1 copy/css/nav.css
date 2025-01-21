@@ -3,7 +3,7 @@
 .menu-container {
 	background-color: whitesmoke;
 	border-bottom: 2px solid whitesmoke;
-	padding: 0;
+	padding: 0 10px; /* Add padding on the left and right sides */
 }
 
 .menu {
@@ -11,7 +11,7 @@
 	align-items: center;
 	justify-content: center;
 	padding: 0;
-	margin: 0;
+	max-width: 95%;
 }
 
 .menu-item {
@@ -25,7 +25,8 @@
 	font-weight: bold;
 	font-family: "Ethnocentric", sans-serif;
 	font-size: 16px;
-	padding: 20px 0;
+	padding: 20px 10px; /* Ensure there's space between the item text and the edges */
+	box-sizing: border-box; /* Make sure padding and border are part of the element's total width */
 	overflow: hidden;
 }
 
@@ -33,13 +34,7 @@
 	content: "";
 	position: absolute;
 	top: 0;
-	left: 0px;
-
-	width: 2px;
-	height: 100%;
-	background-color: whitesmoke;
-
-	z-index: 1;
+	left: 10px;
 }
 
 .menu-item.logo img {
