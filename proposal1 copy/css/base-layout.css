@@ -62,8 +62,8 @@ body {
 	max-width: 40%;
 	box-sizing: border-box;
 	-webkit-clip-path: polygon(
-		25% 5%,
-		75% 5%,
+		50% 55%,
+		75% 55%,
 		100% 50%,
 		75% 95%,
 		25% 95%,
@@ -76,7 +76,6 @@ body {
 }
 
 .list-section h2 {
-	color: #e63946;
 	margin-bottom: 20px;
 	font-size: 28px;
 	margin-top: 80px;
@@ -110,7 +109,7 @@ body {
 	background-color: transparent;
 	mix-blend-mode: multiply;
 }
-
+/*
 .main-container {
 	display: flex;
 	flex-direction: column;
@@ -127,12 +126,77 @@ body {
 }
 
 .hexagon {
-	width: auto;
+	width: 350px;
+	aspect-ratio: 1;
+	background-color: #333;
+	aspect-ratio: 1 / cos(30deg);
+	clip-path: polygon(50% -50%, 100% 50%, 50% 150%, 0 50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent;
+	mix-blend-mode: multiply;
+}
+
+.hexagon img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	clip-path: inherit;
+}
+
+.hexagon.highlighted {
+	background-color: #e63946;
+	background-color: transparent;
+	mix-blend-mode: multiply;
+}
+
+.content-section {
+	max-width: 800px;
+}
+
+.content-section h1 {
+	font-size: 2rem;
+	color: #e63946;
+	margin-bottom: 10px;
+}
+
+.content-section p {
+	line-height: 1.6;
+	font-size: 1rem;
+}
+*/
+
+.main-container {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.left-content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	flex: 1;
+	align-items: center;
+}
+
+.right-content {
+	flex: 1;
+	padding-left: 40px;
+}
+
+.hexagon {
+	width: 150px;
 	aspect-ratio: 1;
 	background-color: #333;
 	-webkit-clip-path: polygon(
-		25% 5%,
-		75% 5%,
+		50% 55%,
+		75% 55%,
 		100% 50%,
 		75% 95%,
 		25% 95%,
@@ -151,17 +215,97 @@ body {
 	clip-path: inherit;
 }
 
-.content-section {
-	max-width: 800px;
+.hexagon.highlighted {
+	background-color: #e63946;
+	width: 250px;
 }
 
-.content-section h1 {
-	font-size: 2rem;
+.right-text {
+	flex: 1;
+	padding-left: 20px;
+	text-align: left;
+}
+
+.right-text p {
+	line-height: 1.6;
+	font-size: 1rem;
+}
+
+.opleiding-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
 	color: #e63946;
-	margin-bottom: 10px;
+	font-size: 2rem;
+	margin-bottom: 20px;
 }
 
-.content-section p {
+.image-text-container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	border: 2px solid #e63946;
+	padding: 20px;
+}
+
+.hexagon-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+.hexagon {
+	width: 200px;
+	aspect-ratio: 1;
+	background-color: #333;
+	-webkit-clip-path: polygon(
+		50% 55%,
+		75% 55%,
+		100% 50%,
+		75% 95%,
+		25% 95%,
+		0% 50%
+	);
+	clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+}
+
+.hexagon img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.hexagon.highlighted {
+	border: 5px solid #e63946;
+}
+
+.bottom {
+	margin-top: -40px;
+	margin-left: -55px;
+	width: 250px;
+}
+
+.right-text {
+	flex: 1;
+	padding-left: 20px;
+	text-align: left;
+}
+
+.right-text p {
 	line-height: 1.6;
 	font-size: 1rem;
 }
