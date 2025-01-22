@@ -107,14 +107,23 @@ body {
 		filter: brightness(110%) saturate(112%) hue-rotate(-3deg);
 	}
 }
+/* inschrijven*/'
+
 .apply-container {
 	max-width: 95%;
-	margin: 0 300px;
-}
+	margin: 10 300px;
+	
 
+}
+.text-apply h1 {
+	text-align: left;
+}
 .text-apply {
 	margin-top: 100px;
 	margin-bottom: 100px;
+	margin-left: 450px;
+	margin-right: 450px;
+	overflow: hidden;
 }
 
 .text-apply-container {
@@ -126,9 +135,18 @@ body {
 
 .text-apply-container p {
 	margin-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 .text-apply-container h4 {
 	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.text-apply-container a {
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 /*OPLEIDING*/
@@ -141,7 +159,7 @@ body {
 h1 {
 	font-size: 2.5rem;
 	color: #d01f1f;
-	text-align: right;
+	text-align: center;
 	margin-bottom: 30px;
 }
 
