@@ -11,13 +11,8 @@ body {
 	margin: 0;
 	background-color: whitesmoke;
 	font-family: "Fira Code";
-<<<<<<< HEAD
 	font-size: 16px;
 	line-height: 1.5;
-=======
-	line-height: 1.5;
-	font-size: 14px;
->>>>>>> d94f04467ac6103d8df19539aa04f9b1c16d6580
 }
 
 .container {
@@ -73,14 +68,7 @@ body {
 	color: #333;
 	max-width: 40%;
 	box-sizing: border-box;
-	-webkit-clip-path: polygon(
-		50% 55%,
-		75% 55%,
-		100% 50%,
-		75% 95%,
-		25% 95%,
-		0% 50%
-	);
+
 	clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
 	z-index: 1;
 	text-align: center;
@@ -310,7 +298,6 @@ h1 {
 	font-size: 1rem;
 }
 
-
 .apply-container {
 	max-width: 95%;
 	margin: 0 45px;
@@ -322,21 +309,26 @@ h1 {
 
 .text-apply-container {
 	display: flex;
-<<<<<<< HEAD
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
-
+.vak-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 .vak {
 	max-width: 250px;
 	margin: 10px;
-	border: 3px solid #222;
+	border: 3px solid #33;
 	border-radius: 30px;
-	color: #3; /* Dark background */
+	color: #333;
 	padding: 15px;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
-
+.Vakken h1 {
+	text-align: center;
+}
 .vak h2 {
 	font-size: 20px;
 	color: #333;
@@ -361,10 +353,8 @@ h1 {
 }
 
 /*footer*/
-/* === Footer Algemene Stijlen === */
-/* Algemene Footer Stijlen */
 .footer {
-	background-color: #2a2a2a;
+	background-color: #333;
 	color: #f1f1f1;
 	padding: 40px 10%;
 	font-family: Arial, sans-serif;
@@ -385,13 +375,12 @@ h1 {
 
 /* Titels */
 
-/* Social Media */
 .social-header {
 	display: flex;
 	align-items: center;
 }
 .social-logo {
-	width: 60px; /* Pas de grootte van het logo aan */
+	width: 60px;
 	height: 60px;
 	margin-left: -50px;
 }
@@ -400,6 +389,7 @@ h1 {
 	grid-template-columns: repeat(4, auto);
 	gap: 15px;
 	justify-content: center;
+	margin-left: -220px;
 }
 
 .social-links a {
@@ -408,17 +398,17 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	transition: transform 0.3s ease, background-color 0.3s ease;
+	transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+	transform: scale(1.3);
 }
 
 .social-links img {
 	width: 40px;
 	height: 40px;
-	margin-left: -230px;
-}
-
-.social-links a:hover {
-	transform: scale(1.1);
+	margin: 0;
 }
 
 /* Contact */
@@ -459,15 +449,15 @@ h1 {
 	border: 2px solid #ff0000;
 	border-radius: 5px;
 }
-
 /* Footer Bottom */
 .footer-bottom {
 	text-align: center;
-	margin-top: 20px;
 	font-size: 14px;
 	border-top: 1px solid #444;
 	padding-top: 10px;
 	color: #aaa;
+	margin-top: -20px;
+	margin-bottom: -30px;
 }
 
 /* Responsiveness */
@@ -481,9 +471,3 @@ h1 {
 		flex: 1 1 100%;
 	}
 }
-=======
-	flex-direction: row;
-	gap: 200px;
-	flex: 1;
-}
->>>>>>> d94f04467ac6103d8df19539aa04f9b1c16d6580
