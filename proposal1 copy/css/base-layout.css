@@ -11,12 +11,8 @@ body {
 	margin: 0;
 	background-color: whitesmoke;
 	font-family: "Fira Code";
-<<<<<<< HEAD
 	font-size: 16px;
 	line-height: 1.5;
-=======
-font-size: 14px;
->>>>>>> 3495a0b3c771f707b77ea8d32454f57b8a9b613c
 }
 
 .container {
@@ -96,7 +92,7 @@ font-size: 14px;
 	padding: 20;
 	margin: 0;
 	font-size: 14px;
-	text-align: c;
+	text-align: center;
 }
 
 .list-section ul li {
@@ -367,4 +363,126 @@ h1 {
 .vak a {
 	width: 30px;
 	height: 20px;
+}
+
+/*footer*/
+/* === Footer Algemene Stijlen === */
+/* Algemene Footer Stijlen */
+.footer {
+	background-color: #2a2a2a;
+	color: #f1f1f1;
+	padding: 40px 10%;
+	font-family: Arial, sans-serif;
+}
+
+.footer-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.footer-section {
+	flex: 1 1 calc(25% - 20px);
+	min-width: 200px;
+	margin-bottom: 20px;
+}
+
+/* Titels */
+
+/* Social Media */
+.social-header {
+	display: flex;
+	align-items: center;
+}
+.social-logo {
+	width: 60px; /* Pas de grootte van het logo aan */
+	height: 60px;
+	margin-left: -50px;
+}
+.social-links {
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	gap: 15px;
+	justify-content: center;
+}
+
+.social-links a {
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-links img {
+	width: 40px;
+	height: 40px;
+	margin-left: -230px;
+}
+
+.social-links a:hover {
+	transform: scale(1.1);
+}
+
+/* Contact */
+.contact p,
+.contact a {
+	color: #f1f1f1;
+	text-decoration: none;
+}
+
+.contact a:hover {
+	text-decoration: underline;
+}
+
+/* Sitemap */
+.sitemap ul {
+	list-style: none;
+	padding: 0;
+}
+
+.sitemap li {
+	margin-bottom: 10px;
+}
+
+.sitemap a {
+	color: #f1f1f1;
+	text-decoration: none;
+}
+
+.sitemap a:hover {
+	text-decoration: underline;
+}
+
+/* Map */
+.map img {
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+	border: 2px solid #ff0000;
+	border-radius: 5px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+	border-top: 1px solid #444;
+	padding-top: 10px;
+	color: #aaa;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+	.footer-container {
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	.footer-section {
+		flex: 1 1 100%;
+	}
 }
