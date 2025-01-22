@@ -11,13 +11,8 @@ body {
 	margin: 0;
 	background-color: whitesmoke;
 	font-family: "Fira Code";
-<<<<<<< HEAD
-	font-size: 16px;
-	line-height: 1.5;
-=======
 	line-height: 1.5;
 	font-size: 14px;
->>>>>>> d94f04467ac6103d8df19539aa04f9b1c16d6580
 }
 
 .container {
