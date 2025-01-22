@@ -94,7 +94,7 @@ body {
 }
 
 .list-section ul li:nth-child(even) {
-	text-align: right;
+	text-align: left;
 }
 
 .image-section {
@@ -131,19 +131,17 @@ body {
 }
 
 .text-apply-container p {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	margin-left: 50px;
 	margin-right: 50px;
 }
 
 .text-apply-container h4 {
-	margin-bottom: 20px;
 	margin-left: 50px;
 	margin-right: 50px;
 }
 
 .text-apply-container a {
-	margin-bottom: 20px;
 	margin-left: 50px;
 	margin-right: 50px;
 }
