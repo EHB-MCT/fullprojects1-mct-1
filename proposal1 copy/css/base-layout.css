@@ -306,16 +306,16 @@ h1 {
 }
 
 
-.ins-container {
+.apply-container {
 	max-width: 95%;
 	margin: 0 45px;
 }
-.text-inschrijven {
+.text-apply {
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
 
-.text-inschr-container {
+.text-apply-container {
 	display: flex;
 	flex-direction: row;
 	gap: 200px;
