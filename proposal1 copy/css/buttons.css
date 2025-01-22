@@ -21,8 +21,8 @@ a {
 }
 
 .btn-secondary:hover {
-	background-color: #ef3a378f;
-	color: firebrick;
+	background-color: firebrick;
+	color: #333;
 }
 
 .btn-primary {

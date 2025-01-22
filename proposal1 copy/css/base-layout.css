@@ -94,7 +94,7 @@ body {
 }
 
 .list-section ul li:nth-child(even) {
-	text-align: right;
+	text-align: left;
 }
 
 .image-section {
@@ -107,13 +107,11 @@ body {
 		filter: brightness(110%) saturate(112%) hue-rotate(-3deg);
 	}
 }
-/* inschrijven*/'
+/* inschrijven*/
 
 .apply-container {
 	max-width: 95%;
 	margin: 10 300px;
-	
-
 }
 .text-apply h1 {
 	text-align: left;
@@ -134,17 +132,15 @@ body {
 }
 
 .text-apply-container p {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	margin-left: 50px;
 	margin-right: 50px;
 }
 .text-apply-container h4 {
-	margin-bottom: 20px;
 	margin-left: 50px;
 	margin-right: 50px;
 }
 .text-apply-container a {
-	margin-bottom: 20px;
 	margin-left: 50px;
 	margin-right: 50px;
 }
