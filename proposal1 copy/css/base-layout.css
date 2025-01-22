@@ -388,7 +388,9 @@ h1 {
 	align-items: center;
 }
 .social-logo {
-	width: 60px; /* Pas de grootte van het logo aan */
+	margin-top: 2px;
+	margin-right: 5px;
+	width: 49px; /* Pas de grootte van het logo aan */
 	height: 60px;
 	margin-left: -50px;
 }
