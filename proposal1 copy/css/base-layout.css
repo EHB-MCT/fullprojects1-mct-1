@@ -11,7 +11,7 @@ body {
 	margin: 0;
 	background-color: whitesmoke;
 	font-family: "Fira Code";
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .container {
@@ -35,11 +35,17 @@ body {
 	flex: 1;
 	background-color: #333;
 	color: white;
-	padding: 40px;
-	max-width: 50%;
+	padding: 20px;
+	width: 40%;
+	height: auto;
 
-	position: relative;
-	overflow: hidden;
+	position: absolute;
+	box-sizing: border-box;
+	-webkit-clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 0 0);
+
+	.txtbs {
+		width: 90%;
+	}
 }
 
 .text-section h1 {
@@ -95,16 +101,15 @@ body {
 }
 
 .image-section {
-	flex: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	margin: 0 auto;
 	padding: 40px;
 }
 
 .image-section img {
-	width: 340px;
-	height: 100%;
+	/* TO FIX */
+	position: relative;
+	margin: 0 auto;
+	width: 700px;
 	border-radius: 10px;
 	background-color: transparent;
 	mix-blend-mode: multiply;
