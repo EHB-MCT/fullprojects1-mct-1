@@ -31,7 +31,6 @@ body {
 	gap: 40px;
 	flex: 1;
 	align-self: center;
-	width: 33%;
 }
 
 .text-section {
@@ -40,10 +39,10 @@ body {
 	color: white;
 	padding: 20px;
 	height: fit-content;
-
+	width: 80%;
 	position: relative;
 	box-sizing: border-box;
-	clip-path: polygon(80% 0%, 90% 50%, 80% 100%, 0% 100%, 0 0);
+	clip-path: polygon(78% 0%, 90% 50%, 78% 100%, 0% 100%, 0 0);
 
 	.txtbs {
 		width: 84%;
@@ -63,7 +62,7 @@ body {
 
 .list-section {
 	position: relative;
-	padding: 65px;
+	padding: 70px;
 	background-color: #f1f1f1;
 	color: #333;
 	max-width: 40%;
@@ -76,22 +75,20 @@ body {
 		25% 95%,
 		0% 50%
 	);
-	clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+	clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 	z-index: 1;
 	text-align: center;
-	overflow: hidden;
 }
 
 .list-section h2 {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-size: 28px;
-	margin-top: 80px;
 }
 
 .list-section ul {
 	list-style: none;
-	padding: 20;
-	margin: 0;
+	padding: 10px;
+	margin-left: 20px;
 	font-size: 14px;
 	text-align: c;
 }
@@ -100,15 +97,22 @@ body {
 	margin-bottom: 10px;
 }
 
+.list-section ul li:nth-child(odd) {
+	text-align: left;
+}
+
+.list-section ul li:nth-child(even) {
+	text-align: right;
+}
+
 .image-section {
-	margin: 0 200px;
+	margin: 30px 24%;
 	position: absolute;
 	img {
 		/* TO FIX */
-		position: relative;
-		margin: 0 auto;
 		width: 700px;
-		mix-blend-mode: darken;
+		mix-blend-mode: multiply;
+		filter: brightness(110%) saturate(112%) hue-rotate(-3deg);
 	}
 }
 
