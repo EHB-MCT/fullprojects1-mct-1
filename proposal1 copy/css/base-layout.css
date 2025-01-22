@@ -209,11 +209,12 @@ body {
 		25% 95%,
 		0% 50%
 	);
-	clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+	clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
+/* BEDOELING IS OM IMGS TE LATEN POPPEN ZOALS IN DE MOCKUP */
 
 .hexagon img {
 	width: 100%;
@@ -275,8 +276,7 @@ h1 {
 	width: 200px;
 	aspect-ratio: 1;
 	background-color: #333;
-	clip-path: polygon(50% 55%, 75% 55%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-	clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+	clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -285,8 +285,8 @@ h1 {
 
 .hexagon img {
 	width: 100%;
-	height: auto;
-	object-fit: cover;
+	/* object-fit: cover; */
+	/* align-content: flex-end; */
 }
 
 .hexagon.highlighted {
