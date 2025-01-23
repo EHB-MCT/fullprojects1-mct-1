@@ -22,7 +22,7 @@ body {
 	padding: 20px;
 	gap: 5px;
 	max-width: 95%;
-	margin: 0 45px;
+	margin: 40px 45px;
 }
 
 .text-list-container {
@@ -101,7 +101,6 @@ body {
 	margin: 30px 24%;
 	position: absolute;
 	img {
-		/* TO FIX */
 		width: 700px;
 		mix-blend-mode: multiply;
 		filter: brightness(110%) saturate(112%) hue-rotate(-3deg);
@@ -136,10 +135,12 @@ body {
 	margin-left: 50px;
 	margin-right: 50px;
 }
+
 .text-apply-container h4 {
 	margin-left: 50px;
 	margin-right: 50px;
 }
+
 .text-apply-container a {
 	margin-left: 50px;
 	margin-right: 50px;
@@ -587,8 +588,8 @@ footer {
 
 .vakkenimg {
 	position: absolute;
-	margin-top: -500px;
-	margin-left: 60%;
+	margin-top: -490px;
+	margin-left: 61%;
 	width: 100%;
 	max-width: 700px;
 	height: auto;
