@@ -50,6 +50,7 @@
 }
 
 .menu-item.inschrijven {
+	color: whitesmoke;
 	background-color: #ef3a37;
 	clip-path: polygon(8% 0, 100% 0, 92% 100%, 0% 100%);
 	transition-duration: 0.2s;
