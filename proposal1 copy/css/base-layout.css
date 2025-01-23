@@ -531,7 +531,8 @@ footer {
 		flex: 1 1 100%;
 	}
 }
-
+/*opleiding*/
+/*links*/
 .container4 {
 	width: 100%;
 	max-width: 1200px;
@@ -570,9 +571,11 @@ footer {
 	margin-right: 400px;
 }
 
-.content4 h2 {
-	color: #ff0000;
+.opleiding h2 {
+	color: #333;
 	margin: 10px;
+	text-align: left;
+	margin-left: 160px;
 }
 
 .right-section4 {
@@ -586,7 +589,7 @@ footer {
 	background: #333;
 }
 
-.vakkenimg {
+.opl-img {
 	position: absolute;
 	margin-top: -490px;
 	margin-left: 61%;
@@ -596,7 +599,7 @@ footer {
 	border-radius: 10px;
 }
 
-.vakkenimg1 {
+.opl-img1 {
 	position: absolute;
 	margin-top: -400px;
 	margin-left: -7%;
@@ -611,50 +614,59 @@ footer {
 	padding: 10px;
 	margin-left: 190px;
 }
-
+.opleiding {
+	margin-top: 150px;
+}
+.opleiding h3 {
+	text-align: left;
+	margin-left: 10px;
+	color: #e63946;
+}
 /*vakken*/
 .container3 {
 	display: flex;
-	align-items: center; /* Centraal uitlijnen, optioneel */
-	gap: 20px; /* Ruimte tussen de afbeelding en de tekst */
+	align-items: center;
+	gap: 10px;
+	margin-top: -80px;
 }
 
 .image-section3 {
-	flex: 1; /* Afbeelding neemt ruimte in */
+	flex: 1;
 }
 
 .content3 {
-	flex: 2; /* Tekst neemt meer ruimte in */
+	flex: 2;
 }
 
 .vakkenimg2 {
-	max-width: 100%; /* Afbeelding schaalt netjes */
-	height: auto; /* Houdt de verhoudingen van de afbeelding */
+	max-width: 600px;
+	height: 600px;
 }
 
-.right-section3 h2 {
-	font-size: 1.5rem;
+.right-section3 h3 {
 	color: #d01f1f;
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 40px;
+	margin-left: -10px;
 }
 
 .right-section3 p {
-	font-size: 1rem; /* Pas aan naar wens */
+	font-size: 1rem;
 	line-height: 1.5;
-	margin-top: 20px;
+	margin-top: 10px;
 	color: whitesmoke;
-	margin-left: 270px;
-	margin-right: 200px;
+	margin-left: 220px;
+	margin-right: 150px;
 }
 
 .meerinfo {
-	margin-left: 260px;
+	margin-left: 240px;
 	padding: 10px;
 	margin-top: 40px;
 }
+
 .right-section3 {
-	max-width: 800px;
+	max-width: 600px;
 	height: 400px;
 
 	clip-path: polygon(
@@ -667,4 +679,55 @@ footer {
 		0% 50%
 	);
 	background-color: #333;
+	margin-left: 160px;
+}
+.right-section2 {
+	max-width: 600px;
+	height: 400px;
+
+	clip-path: polygon(
+		70% 100%,
+		100% 100%,
+		100% 10%,
+		100% 100%,
+		0% 100%,
+		0% -70%,
+		100% 50%
+	);
+	background-color: #333;
+	margin-left: 235px;
+	margin-top: 0px;
+}
+
+.right-section2 h3 {
+	color: whitesmoke;
+	text-align: center;
+	padding-top: 20px;
+	margin-left: -400px;
+}
+
+.right-section2 p {
+	font-size: 1rem;
+	line-height: 1.5;
+	margin-top: 10px;
+	color: whitesmoke;
+	margin-left: 70px;
+	margin-right: 250px;
+}
+
+.meerinfo1 {
+	margin-left: 60px;
+	padding: 10px;
+	margin-top: 40px;
+}
+.vakken1 {
+	margin-top: 150px;
+}
+.vakken1 h2 {
+	text-align: right;
+	margin-right: 150px;
+}
+
+.vakkenimg2 {
+	po
 }
