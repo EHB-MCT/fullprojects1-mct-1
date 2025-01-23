@@ -2,7 +2,7 @@
 
 .menu-container {
 	background-color: whitesmoke;
-	z-index: 2;
+	z-index: 10;
 	position: sticky;
 	top: -16px; /* afblijven: bepaalt sticky positie */
 	padding-top: 15px;
