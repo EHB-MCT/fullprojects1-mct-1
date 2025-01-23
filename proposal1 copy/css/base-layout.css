@@ -51,7 +51,7 @@ body {
 	color: #e63946;
 	font-size: 24px;
 	margin-bottom: 10px;
-	text-align: center;
+	text-align: left;
 }
 
 .text-section p {
@@ -98,11 +98,12 @@ body {
 }
 
 .image-section {
-	margin: 30px 24%;
+	margin-left: 24%;
+	margin-top: 80px;
 	position: absolute;
+	z-index: 2;
 	img {
-		width: 700px;
-		mix-blend-mode: multiply;
+		width: 750px;
 		filter: brightness(110%) saturate(112%) hue-rotate(-3deg);
 	}
 }

@@ -2,7 +2,7 @@
 
 .menu-container {
 	background-color: whitesmoke;
-	z-index: 2;
+	z-index: 10;
 	position: sticky;
 	top: -16px; /* afblijven: bepaalt sticky positie */
 	padding-top: 15px;
@@ -50,6 +50,7 @@
 }
 
 .menu-item.inschrijven {
+	color: whitesmoke;
 	background-color: #ef3a37;
 	clip-path: polygon(8% 0, 100% 0, 92% 100%, 0% 100%);
 	transition-duration: 0.2s;
