@@ -13,6 +13,7 @@ body {
 	font-family: "Fira Code";
 	line-height: 1.5;
 	font-size: 14px;
+	overflow-x: hidden;
 }
 /*Home page */
 .container {
@@ -729,6 +730,8 @@ footer {
 	margin-right: 150px;
 }
 
-.vakkenimg2 {
-	po
+.vakkenimg3 {
+	margin-left: 390px;
+	margin-top: 0px;
+	height: 400px;
 }
