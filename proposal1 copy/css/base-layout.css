@@ -642,7 +642,7 @@ footer {
 
 .vakkenimg2 {
 	max-width: 600px;
-	height: 600px;
+	height: auto;
 }
 
 .right-section3 h3 {
@@ -725,13 +725,15 @@ footer {
 .vakken1 {
 	margin-top: 150px;
 }
+
 .vakken1 h2 {
-	text-align: right;
-	margin-right: 150px;
+	text-align: left;
+	margin-left: 150px;
 }
 
 .vakkenimg3 {
 	margin-left: 390px;
 	margin-top: 0px;
 	height: 400px;
+	width: auto;
 }
