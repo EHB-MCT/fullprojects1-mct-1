@@ -192,8 +192,6 @@ body {
 	margin-right: 50px;
 }
 
-/*footer*/
-
 /*opleiding*/
 /*links*/
 .container4 {
@@ -283,7 +281,6 @@ body {
 .opleiding h3 {
 	text-align: left;
 	margin-left: 10px;
-	color: #e63946;
 }
 
 /*vakken*/
@@ -310,7 +307,7 @@ body {
 }
 
 .right-section3 h3 {
-	color: #d01f1f;
+	color: whitesmoke;
 	text-align: center;
 	padding-top: 40px;
 	margin-right: 400px;
