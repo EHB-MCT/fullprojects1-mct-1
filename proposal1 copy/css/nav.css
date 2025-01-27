@@ -12,7 +12,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	max-width: 95%;
+	justify-self: center;
+	width: 90%;
 }
 
 .menu-item {
@@ -26,21 +27,22 @@
 	font-weight: bold;
 	font-family: "Ethnocentric", sans-serif;
 	font-size: 14px;
-	padding: 21px 10px;
+	padding: 21px 0px;
 	box-sizing: border-box;
 	overflow: hidden;
 }
 
-.menu-item:not(.logo)::after {
+/* .menu-item:not(.logo)::after {
 	content: "";
 	position: absolute;
 	top: 0;
 	left: 10px;
-}
+} */
 
 .logo {
 	padding: 0;
-
+	text-align: left;
+	clip-path: none;
 	img {
 		width: 70px;
 	}
