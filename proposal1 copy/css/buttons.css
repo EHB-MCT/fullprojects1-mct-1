@@ -4,6 +4,7 @@ a {
 	text-decoration: none;
 	text-align: center;
 	cursor: pointer;
+	color: whitesmoke;
 }
 
 .btn-secondary {
@@ -21,8 +22,7 @@ a {
 }
 
 .btn-secondary:hover {
-	background-color: firebrick;
-	color: #333;
+	background-color: whitesmoke;
 }
 
 .btn-primary {

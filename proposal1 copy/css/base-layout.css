@@ -15,6 +15,9 @@ body {
 	font-size: 14px;
 	overflow-x: hidden;
 }
+h2 {
+	margin-top: -15px;
+}
 /*Home page */
 .container {
 	width: 90%;
@@ -350,7 +353,7 @@ body {
 }
 
 .vakkenimg3 {
-	margin-left: 450px;
+	margin-left: 400px;
 	margin-top: 0px;
 	height: 400px;
 	width: auto;
