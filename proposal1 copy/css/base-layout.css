@@ -285,6 +285,10 @@ body {
 }
 
 /*vakken*/
+.title {
+	margin-top: 150px;
+}
+
 .container3 {
 	display: flex;
 	align-items: center;
@@ -302,13 +306,15 @@ body {
 }
 
 .vakkenimg2 {
+	/* fix order of the layers */
 	max-width: 600px;
-	height: 610px;
+	height: auto;
 	margin-left: -165px;
+	z-index: 2;
 }
 
 .right-section3 h3 {
-	color: whitesmoke;
+	z-index: 1;
 	text-align: center;
 	padding-top: 40px;
 	margin-right: 400px;
@@ -329,6 +335,7 @@ body {
 }
 
 .right-section3 {
+	z-index: 2;
 	max-width: 600px;
 	height: 400px;
 
@@ -759,193 +766,154 @@ th {
 	}
 }
 
+@media (max-width: 760px) {
+    /* General Container */
+    .container {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .left-section4,
+    .right-section4 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .right-section2,
+    .right-section3 {
+        max-width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero-section {
+        padding: 40px 20px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 2em;
+    }
+}
+
 @media (max-width: 480px) {
-	/* General Container */
-	.container {
-		flex-direction: column;
-		gap: 10px;
-		margin: 10px;
-		padding: 5px;
-	}
+    /* General Container */
+    .container {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
 
-	/* Text List Container */
-	.text-list-container {
-		flex: 1;
-		align-self: center;
-		gap: 15px;
-	}
+    .left-section4,
+    .right-section4 {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+    }
 
-	/* Text Section */
-	.text-section {
-		width: 100%;
-		padding: 10px;
-		box-sizing: border-box;
-		clip-path: none; /* Remove clip-path for mobile */
-	}
+    .right-section2,
+    .right-section3 {
+        padding: 15px;
+    }
 
-	.text-section h1 {
-		font-size: 18px;
-		text-align: center;
-	}
+    .hero-section {
+        padding: 30px 15px;
+    }
 
-	.text-section p {
-		font-size: 12px;
-		text-align: center;
-	}
+    .hero-title {
+        font-size: 1.5em;
+    }
 
-	/* List Section */
-	.list-section {
-		max-width: 100%;
-		padding: 20px;
-		clip-path: none;
-		text-align: left;
-	}
+    .nav-links {
+        gap: 8px;
+    }
 
-	.list-section ul {
-		font-size: 12px;
-	}
+    .button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
 
-	/* Image Section */
-	.image-section {
-		margin-left: 0;
-		margin-top: 10px;
-		position: relative;
-		text-align: center;
-	}
+    .meerinfo {
+        margin: 10px 0;
+    }
+}
 
-	.image-section img {
-		width: 100%;
-		max-width: 100%;
-	}
+/* Hamburger Menu Styles */
+.hamburger-menu {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
+}
 
-	/* Apply Container */
-	.apply-container {
-		margin: 10px;
-		width: 100%;
-	}
+.hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
 
-	.text-apply {
-		margin: 10px;
-	}
+@media (max-width: 480px) {
+    .hamburger-menu {
+        display: block;
+    }
 
-	.text-apply-container {
-		flex-direction: column;
-		gap: 15px;
-	}
+    .nav-links {
+        display: none;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
 
-	/* Footer */
-	.footer-container {
-		flex-direction: column;
-		gap: 15px;
-	}
+    .nav-links.active {
+        display: flex;
+    }
 
-	.footer-section {
-		flex: 1 1 100%;
-	}
+    .hamburger-menu.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
 
-	.social-links {
-		justify-content: center;
-		margin-left: 0;
-	}
+    .hamburger-menu.active span:nth-child(2) {
+        opacity: 0;
+    }
 
-	.social-links a {
-		width: 30px;
-		height: 30px;
-	}
+    .hamburger-menu.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -7px);
+    }
 
-	/* Contact and Sitemap */
-	.contact p,
-	.contact a,
-	.sitemap a {
-		font-size: 12px;
-		text-align: center;
-	}
+    .menu {
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
 
-	/* Map */
-	.map img {
-		width: 100%;
-		max-width: 240px;
-		height: auto;
-		border: 2px solid #ff0000;
-	}
+    .menu-item {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
 
-	/* Footer Bottom */
-	.footer-bottom {
-		font-size: 10px;
-		padding-top: 5px;
-	}
-
-	/* Opleiding Section */
-	.container4 {
-		width: 100%;
-		clip-path: none;
-	}
-
-	.content4 {
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.left-section4 {
-		padding: 15px;
-		width: 100%;
-		text-align: center;
-	}
-
-	.right-section4 {
-		width: 100%;
-		padding: 15px;
-		text-align: center;
-	}
-
-	.opl-img,
-	.opl-img1 {
-		width: 80%;
-		max-width: 400px;
-		margin: 15px auto;
-	}
-
-	.opleiding h2 {
-		font-size: 16px;
-		text-align: center;
-	}
-
-	/* Vakken Section */
-	.container3 {
-		flex-direction: column;
-	}
-
-	.vakkenimg2,
-	.vakkenimg3 {
-		width: 100%;
-		max-width: 350px;
-		margin: 15px auto;
-	}
-
-	.meerinfo {
-		margin-left: 0;
-	}
-
-	.right-section3,
-	.right-section2 {
-		max-width: 100%;
-		padding: 15px;
-		text-align: center;
-	}
-
-	.right-section3 h3,
-	.right-section2 h3 {
-		font-size: 18px;
-	}
-
-	.right-section3 p,
-	.right-section2 p {
-		font-size: 12px;
-		margin: 5px;
-	}
-
-	.meerinfo1 {
-		margin-left: 0;
-		padding: 10px;
-	}
+    .logo {
+        width: auto;
+    }
 }
