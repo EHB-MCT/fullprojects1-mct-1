@@ -11,32 +11,62 @@
 		<link rel="stylesheet" href="css/buttons.css" />
 		<link rel="stylesheet" href="https://use.typekit.net/xro0fca.css" />
 		<link rel="icon" type="image/x-icon" href="images/MCT_SMALL_coloured.svg" />
+		<style>
+			.container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+			}
+
+			.hexagoncontact {
+				padding: 70px;
+				background-color: #f1f1f1;
+				color: #333;
+				max-width: 40%;
+				box-sizing: border-box;
+				clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+				text-align: center;
+			}
+
+			.hexagoncontact h2 {
+				font-size: 28px;
+				font-weight: bold;
+				text-transform: uppercase;
+				margin-bottom: 20px;
+			}
+
+			.hexagoncontact ul {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				font-size: 14px;
+				text-align: center;
+			}
+
+			.hexagoncontact ul li {
+				margin-bottom: 10px;
+			}
+		</style>
 	</head>
 
-	<header class="menu-container">
-		<nav class="menu">
-			<a href="index.html" class="menu-item logo">
-				<img src="images/logo_mct.svg" alt="" />
-			</a>
-			<a href="index.html" class="menu-item">Home</a>
-			<a href="index.html#opleiding" class="menu-item">OPLEIDING</a>
-			<a href="#" class="menu-item">INFODAGEN</a>
-			<a href="index.html#vakken" class="menu-item">vakken</a>
-			<a href="index.html#STUDIEKOSTEN" class="menu-item">STUDIEKOSTEN</a>
-			<a href="#" class="menu-item">CONTACT</a>
-			<a href="apply.html" class="menu-item inschrijven">INSCHRIJVEN</a>
-		</nav>
-	</header>
 	<body>
-		<div class="list-section">
-			<h2>CONTACT</h2>
-			<ul>
-				<li>Erasmushogeschool</li>
-				<li>campus Kaai</li>
-				<li>Nijverheidskaai 170, 1070 Anderlecht</li>
-				<li>Bel ons: 02 523 37 37</li>
-				<li>Mail ons: mike.derycke@ehb.be</li>
-			</ul>
+		<div class="container">
+			<div class="hexagoncontact">
+				<div>
+					<h2>CONTACT</h2>
+					<ul>
+						<li>Erasmushogeschool</li>
+						<li>campus Kaai</li>
+						<li>Nijverheidskaai 170, 1070 Anderlecht</li>
+						<li>Bel ons: 02 523 37 37</li>
+						<li>Mail ons: mike.derycke@ehb.be</li>
+						<li>Chat met ons via de knop rechtsonder in beeld</li>
+						<li>Maak een afspraak met een traject- en/of studiebegeleider</li>
+						<li>Stel je vraag via dit formulier</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
