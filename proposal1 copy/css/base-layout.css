@@ -59,30 +59,28 @@
 	clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
 	z-index: 1;
 	text-align: center;
-}
 
-.list-section h2 {
-	font-size: 28px;
-}
+	h2 {
+		font-size: 28px;
+	}
 
-.list-section ul {
-	list-style: none;
-	padding: 10px;
-	margin-left: 20px;
-	font-size: 14px;
-	text-align: center;
-}
+	ul {
+		list-style: none;
+		padding: 10px;
+		margin-left: 20px;
+		font-size: 14px;
+		text-align: center;
 
-.list-section ul li {
-	margin-bottom: 10px;
-}
-
-.list-section ul li:nth-child(odd) {
-	text-align: left;
-}
-
-.list-section ul li:nth-child(even) {
-	text-align: left;
+		li {
+			margin-bottom: 10px;
+		}
+		li:nth-child(even) {
+			text-align: right;
+		}
+		li:nth-child(odd) {
+			text-align: left;
+		}
+	}
 }
 
 .image-section {
