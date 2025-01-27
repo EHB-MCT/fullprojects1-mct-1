@@ -12,6 +12,7 @@ body {
 	background-color: whitesmoke;
 	font-family: "Fira Code";
 	line-height: 1.5;
+	font-size: 14px;
 	overflow-x: hidden;
 }
 /*Home page */
@@ -67,10 +68,15 @@ body {
 	text-align: center;
 }
 
+.list-section h2 {
+	font-size: 28px;
+}
+
 .list-section ul {
 	list-style: none;
 	padding: 10px;
 	margin-left: 20px;
+	font-size: 14px;
 	text-align: center;
 }
 
@@ -99,25 +105,75 @@ body {
 /* inschrijven*/
 
 .apply-container {
-	width: 95%;
-	margin: 10 300px;
-}
-.text-apply h1 {
-	text-align: left;
-}
-.text-apply {
-	margin-top: 100px;
-	margin-bottom: 100px;
-	margin-left: 450px;
-	margin-right: 450px;
-	overflow: hidden;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem;
 }
 
-.text-apply-container {
+.text-apply {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+.text-apply h1 {
+	margin-right: 140px;
+}
+
+.text-apply p {
+	margin-left: 350px;
+	margin-right: 250px;
+	text-align: left;
+}
+
+.buttons-row {
 	display: flex;
-	flex-direction: row;
-	gap: 100px;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 2rem;
+	flex-wrap: wrap;
+}
+
+.button-item {
 	flex: 1;
+	min-width: 250px;
+	text-align: center;
+	padding: 1rem;
+}
+
+.button-item h4 {
+	margin-bottom: 1rem;
+}
+
+.button-item p {
+	margin-bottom: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+	.buttons-row {
+		justify-content: center;
+	}
+
+	.button-item {
+		flex: 0 1 calc(50% - 2rem);
+	}
+}
+
+@media (max-width: 600px) {
+	.button-item {
+		flex: 0 1 100%;
+	}
+}
+
+/* Make it responsive */
+@media (max-width: 1024px) {
+	.text-apply-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 600px) {
+	.text-apply-container {
+		grid-template-columns: 1fr;
+	}
 }
 
 .text-apply-container p {
@@ -135,6 +191,8 @@ body {
 	margin-left: 50px;
 	margin-right: 50px;
 }
+
+/*footer*/
 
 /*opleiding*/
 /*links*/
@@ -227,12 +285,14 @@ body {
 	margin-left: 10px;
 	color: #e63946;
 }
+
 /*vakken*/
 .container3 {
 	display: flex;
 	align-items: center;
-	gap: 10px;
-	margin-top: -80px;
+	gap: 230px;
+	margin-top: -90px;
+	padding: 10px;
 }
 
 .image-section3 {
@@ -245,14 +305,16 @@ body {
 
 .vakkenimg2 {
 	max-width: 600px;
-	height: auto;
+	height: 610px;
+	margin-left: -165px;
 }
 
 .right-section3 h3 {
 	color: #d01f1f;
 	text-align: center;
 	padding-top: 40px;
-	margin-left: -10px;
+	margin-right: 400px;
+	margin-left: 220px;
 }
 
 .right-section3 p {
@@ -263,7 +325,7 @@ body {
 }
 
 .meerinfo {
-	margin-left: 240px;
+	margin-left: 210px;
 	padding: 10px;
 	margin-top: 40px;
 }
@@ -298,7 +360,7 @@ body {
 		100% 50%
 	);
 	background-color: #333;
-	margin-left: 238px;
+	margin-left: 70px;
 	margin-top: 0px;
 }
 
@@ -306,7 +368,7 @@ body {
 	color: whitesmoke;
 	text-align: center;
 	padding-top: 20px;
-	margin-left: -400px;
+	margin-left: -370px;
 }
 
 .right-section2 p {
@@ -325,12 +387,17 @@ body {
 	margin-top: 150px;
 }
 
+.vakken1 h2 {
+	text-align: left;
+	margin-left: 150px;
+}
+
 .vakkenimg3 {
-	justify-content: right;
-	margin-right: 0px;
+	margin-left: 450px;
 	margin-top: 0px;
 	height: 400px;
 	width: auto;
+	margin-top: 22px;
 }
 
 /* help */
@@ -379,6 +446,13 @@ th {
 	display: flex;
 	align-items: center;
 }
+
+/* .social-logo {
+	margin-top: 2px;
+	margin-right: 10px;
+	width: 40px;
+	height: 50px;
+} */
 
 .social-links {
 	display: grid;
@@ -492,7 +566,13 @@ th {
 		clip-path: none; /* Remove clip-path for mobile */
 	}
 
+	.text-section h1 {
+		font-size: 20px;
+		text-align: center;
+	}
+
 	.text-section p {
+		font-size: 14px;
 		text-align: center;
 	}
 
@@ -502,6 +582,10 @@ th {
 		padding: 30px;
 		clip-path: none;
 		text-align: left;
+	}
+
+	.list-section ul {
+		font-size: 12px;
 	}
 
 	/* Image Section */
@@ -556,6 +640,7 @@ th {
 	.contact p,
 	.contact a,
 	.sitemap a {
+		font-size: 14px;
 		text-align: center;
 	}
 
@@ -604,6 +689,7 @@ th {
 	}
 
 	.opleiding h2 {
+		font-size: 18px;
 		text-align: center;
 	}
 
@@ -630,8 +716,14 @@ th {
 		text-align: center;
 	}
 
+	.right-section3 h3,
+	.right-section2 h3 {
+		font-size: 20px;
+	}
+
 	.right-section3 p,
 	.right-section2 p {
+		font-size: 14px;
 		margin: 10px;
 	}
 }
@@ -661,10 +753,12 @@ th {
 	}
 
 	.text-section h1 {
+		font-size: 18px;
 		text-align: center;
 	}
 
 	.text-section p {
+		font-size: 12px;
 		text-align: center;
 	}
 
@@ -674,6 +768,10 @@ th {
 		padding: 20px;
 		clip-path: none;
 		text-align: left;
+	}
+
+	.list-section ul {
+		font-size: 12px;
 	}
 
 	/* Image Section */
@@ -728,6 +826,7 @@ th {
 	.contact p,
 	.contact a,
 	.sitemap a {
+		font-size: 12px;
 		text-align: center;
 	}
 
@@ -776,6 +875,7 @@ th {
 	}
 
 	.opleiding h2 {
+		font-size: 16px;
 		text-align: center;
 	}
 
@@ -802,8 +902,14 @@ th {
 		text-align: center;
 	}
 
+	.right-section3 h3,
+	.right-section2 h3 {
+		font-size: 18px;
+	}
+
 	.right-section3 p,
 	.right-section2 p {
+		font-size: 12px;
 		margin: 5px;
 	}
 
