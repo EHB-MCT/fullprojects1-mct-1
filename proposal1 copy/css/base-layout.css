@@ -400,15 +400,22 @@ body {
 	margin-top: 22px;
 }
 
-/* help */
+/* kosten */
 
 .costs_enrollment {
 	margin-top: 5%;
+	max-width: 100%;
+	width: 1200px;
+	height: 600px;
+}
+.content_enrollment p {
+	line-height: 3.5rem;
 }
 
 table {
 	border-collapse: collapse;
 	margin-top: 50px;
+	margin-left: 200px;
 }
 
 th,
@@ -426,8 +433,14 @@ th {
 	border: none;
 }
 
-.left {
-	width: 100%;
+.kostimage {
+	position: relative;
+	max-width: 100%;
+	min-height: auto;
+	width: 400px;
+	margin-left: 700px;
+	margin-top: -500px;
+	margin-bottom: 20px;
 }
 
 /*footer*/
