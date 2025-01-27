@@ -284,6 +284,10 @@ body {
 }
 
 /*vakken*/
+.title {
+	margin-top: 150px;
+}
+
 .container3 {
 	display: flex;
 	align-items: center;
