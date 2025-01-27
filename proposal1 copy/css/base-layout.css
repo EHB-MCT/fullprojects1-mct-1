@@ -426,6 +426,10 @@ th {
 	border: none;
 }
 
+.left {
+	width: 100%;
+}
+
 /*footer*/
 .footer {
 	background-color: #333;
