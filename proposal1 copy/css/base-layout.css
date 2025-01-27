@@ -12,6 +12,7 @@ body {
 	background-color: whitesmoke;
 	font-family: "Fira Code";
 	line-height: 1.5;
+	font-size: 14px;
 	overflow-x: hidden;
 }
 /*Home page */
@@ -48,11 +49,13 @@ body {
 
 .text-section h1 {
 	color: #e63946;
+	font-size: 24px;
 	margin-bottom: 10px;
 	text-align: left;
 }
 
 .text-section p {
+	font-size: 16px;
 	margin-bottom: 30px;
 }
 
@@ -69,10 +72,15 @@ body {
 	text-align: center;
 }
 
+.list-section h2 {
+	font-size: 28px;
+}
+
 .list-section ul {
 	list-style: none;
 	padding: 10px;
 	margin-left: 20px;
+	font-size: 14px;
 	text-align: center;
 }
 
@@ -137,6 +145,8 @@ body {
 	margin-left: 50px;
 	margin-right: 50px;
 }
+
+/*footer*/
 
 /*opleiding*/
 /*links*/
@@ -229,12 +239,14 @@ body {
 	margin-left: 10px;
 	color: #e63946;
 }
+
 /*vakken*/
 .container3 {
 	display: flex;
 	align-items: center;
-	gap: 10px;
-	margin-top: -80px;
+	gap: 230px;
+	margin-top: -90px;
+	padding: 10px;
 }
 
 .image-section3 {
@@ -247,14 +259,16 @@ body {
 
 .vakkenimg2 {
 	max-width: 600px;
-	height: auto;
+	height: 610px;
+	margin-left: -165px;
 }
 
 .right-section3 h3 {
 	color: #d01f1f;
 	text-align: center;
 	padding-top: 40px;
-	margin-left: -10px;
+	margin-right: 400px;
+	margin-left: 220px;
 }
 
 .right-section3 p {
@@ -266,7 +280,7 @@ body {
 }
 
 .meerinfo {
-	margin-left: 240px;
+	margin-left: 210px;
 	padding: 10px;
 	margin-top: 40px;
 }
@@ -301,7 +315,7 @@ body {
 		100% 50%
 	);
 	background-color: #333;
-	margin-left: 238px;
+	margin-left: 70px;
 	margin-top: 0px;
 }
 
@@ -309,10 +323,11 @@ body {
 	color: whitesmoke;
 	text-align: center;
 	padding-top: 20px;
-	margin-left: -400px;
+	margin-left: -370px;
 }
 
 .right-section2 p {
+	font-size: 1rem;
 	line-height: 1.5;
 	margin-top: 10px;
 	color: whitesmoke;
@@ -335,11 +350,14 @@ body {
 }
 
 .vakkenimg3 {
-	margin-left: 390px;
+	margin-left: 450px;
 	margin-top: 0px;
 	height: 400px;
 	width: auto;
+	margin-top: 22px;
 }
+
+/* Mobile Responsiveness for 480px */
 
 /*footer*/
 .footer {
@@ -481,7 +499,13 @@ body {
 		clip-path: none; /* Remove clip-path for mobile */
 	}
 
+	.text-section h1 {
+		font-size: 20px;
+		text-align: center;
+	}
+
 	.text-section p {
+		font-size: 14px;
 		text-align: center;
 	}
 
@@ -491,6 +515,10 @@ body {
 		padding: 30px;
 		clip-path: none;
 		text-align: left;
+	}
+
+	.list-section ul {
+		font-size: 12px;
 	}
 
 	/* Image Section */
@@ -545,6 +573,7 @@ body {
 	.contact p,
 	.contact a,
 	.sitemap a {
+		font-size: 14px;
 		text-align: center;
 	}
 
@@ -593,6 +622,7 @@ body {
 	}
 
 	.opleiding h2 {
+		font-size: 18px;
 		text-align: center;
 	}
 
@@ -619,8 +649,14 @@ body {
 		text-align: center;
 	}
 
+	.right-section3 h3,
+	.right-section2 h3 {
+		font-size: 20px;
+	}
+
 	.right-section3 p,
 	.right-section2 p {
+		font-size: 14px;
 		margin: 10px;
 	}
 }
@@ -650,10 +686,12 @@ body {
 	}
 
 	.text-section h1 {
+		font-size: 18px;
 		text-align: center;
 	}
 
 	.text-section p {
+		font-size: 12px;
 		text-align: center;
 	}
 
@@ -663,6 +701,10 @@ body {
 		padding: 20px;
 		clip-path: none;
 		text-align: left;
+	}
+
+	.list-section ul {
+		font-size: 12px;
 	}
 
 	/* Image Section */
@@ -717,6 +759,7 @@ body {
 	.contact p,
 	.contact a,
 	.sitemap a {
+		font-size: 12px;
 		text-align: center;
 	}
 
@@ -765,6 +808,7 @@ body {
 	}
 
 	.opleiding h2 {
+		font-size: 16px;
 		text-align: center;
 	}
 
@@ -791,8 +835,14 @@ body {
 		text-align: center;
 	}
 
+	.right-section3 h3,
+	.right-section2 h3 {
+		font-size: 18px;
+	}
+
 	.right-section3 p,
 	.right-section2 p {
+		font-size: 12px;
 		margin: 5px;
 	}
 
