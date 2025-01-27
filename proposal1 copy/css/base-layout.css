@@ -301,6 +301,7 @@ body {
 }
 
 .vakkenimg2 {
+	/* fix order of the layers */
 	max-width: 600px;
 	height: auto;
 	margin-left: -165px;
