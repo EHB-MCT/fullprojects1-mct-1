@@ -302,12 +302,13 @@ body {
 
 .vakkenimg2 {
 	max-width: 600px;
-	height: 610px;
+	height: auto;
 	margin-left: -165px;
+	z-index: 2;
 }
 
 .right-section3 h3 {
-	color: whitesmoke;
+	z-index: 1;
 	text-align: center;
 	padding-top: 40px;
 	margin-right: 400px;
@@ -328,6 +329,7 @@ body {
 }
 
 .right-section3 {
+	z-index: 2;
 	max-width: 600px;
 	height: 400px;
 
@@ -891,11 +893,6 @@ th {
 	.opleiding h2 {
 		font-size: 16px;
 		text-align: center;
-	}
-
-	/* Vakken Section */
-	.container3 {
-		flex-direction: column;
 	}
 
 	.vakkenimg2,
