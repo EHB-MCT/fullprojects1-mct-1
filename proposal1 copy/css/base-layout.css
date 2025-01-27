@@ -23,6 +23,7 @@ body {
 	justify-content: space-between;
 	align-items: flex-start;
 	gap: 5px;
+	padding-bottom: 50px;
 }
 
 .text-list-container {
@@ -404,6 +405,7 @@ body {
 	max-width: 100%;
 	width: 1200px;
 	height: 600px;
+	margin-left: 10px;
 }
 .content_enrollment p {
 	line-height: 3.5rem;
@@ -436,8 +438,23 @@ th {
 	min-height: auto;
 	width: 400px;
 	margin-left: 700px;
-	margin-top: -500px;
-	margin-bottom: 20px;
+	margin-top: -300px;
+	margin-bottom: 50px;
+}
+
+.left img {
+	height: 600px;
+	width: auto;
+	margin-left: -350px;
+	margin-top: 140px;
+}
+
+.right {
+	margin-top: 50px;
+}
+.right p {
+	line-height: 2rem;
+	padding-bottom: 10px;
 }
 
 /*footer*/
