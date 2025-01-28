@@ -141,10 +141,10 @@
 	}
 
 	.logo {
-		position: fixed;
-		top: 10px;
-		left: 20px;
-		z-index: 101;
+		position: fixed !important;
+		top: 10px !important;
+		left: 20px !important;
+		z-index: 101 !important;
 	}
 
 	/* Burger Menu Animation */
