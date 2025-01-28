@@ -809,3 +809,249 @@ th {
 		font-size: 2em;
 	}
 }
+
+@media (max-width: 480px) {
+	/* General layout */
+	.container,
+	.row,
+	.column,
+	.flex-container,
+	.grid-container {
+		flex-direction: column !important;
+		display: flex !important;
+		width: 100% !important;
+		margin: 0 !important;
+		padding: 10px !important;
+		gap: 15px !important;
+		order: 0 !important;
+	}
+
+	/* Preserve section order */
+	.left-section,
+	.right-section,
+	.left-section2,
+	.right-section2,
+	.left-section3,
+	.right-section3,
+	.left-section4,
+	.right-section4,
+	section,
+	article,
+	aside,
+	.content-section {
+		width: 100% !important;
+		max-width: 100% !important;
+		margin: 10px 0 !important;
+		padding: 10px !important;
+		height: auto !important;
+		float: none !important;
+		display: block !important;
+		order: inherit !important;
+	}
+
+	/* Ensure content flows in the right order */
+	.left-section {
+		order: 1 !important;
+	}
+	.right-section {
+		order: 2 !important;
+	}
+	.left-section2 {
+		order: 3 !important;
+	}
+	.right-section2 {
+		order: 4 !important;
+	}
+	.left-section3 {
+		order: 5 !important;
+	}
+	.right-section3 {
+		order: 6 !important;
+	}
+	.left-section4 {
+		order: 7 !important;
+	}
+	.right-section4 {
+		order: 8 !important;
+	}
+
+	/* Keep spacing consistent */
+	* + * {
+		margin-top: 10px !important;
+	}
+
+	/* Remove any floating */
+	* {
+		float: none !important;
+	}
+
+	/* Text styling */
+	p,
+	li,
+	td,
+	th {
+		font-size: 12px;
+		line-height: 1.4;
+		text-align: left;
+		width: 100%;
+	}
+
+	/* Headings */
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		width: 100% !important;
+		text-align: center !important;
+		margin: 15px 0 !important;
+		padding: 5px 10px !important;
+	}
+
+	h1 {
+		font-size: 24px !important;
+		margin-bottom: 20px !important;
+	}
+	h2 {
+		font-size: 20px !important;
+		margin-bottom: 15px !important;
+	}
+	h3 {
+		font-size: 18px !important;
+		margin-bottom: 15px !important;
+	}
+
+	/* Section titles */
+	.section-title,
+	.content-title,
+	.page-title,
+	[class*="title"],
+	[class*="heading"] {
+		text-align: center !important;
+		width: 100% !important;
+		margin: 15px 0 !important;
+	}
+
+	/* Images and media */
+	img:not([alt*="logo"]),
+	iframe {
+		width: 100% !important;
+		max-width: 100% !important;
+		height: auto !important;
+		margin: 10px 0 !important;
+		display: block !important;
+	}
+
+	/* All sections */
+	.left-section,
+	.right-section,
+	.left-section2,
+	.right-section2,
+	.left-section3,
+	.right-section3,
+	.left-section4,
+	.right-section4,
+	section,
+	article,
+	aside,
+	.content-section {
+		width: 100% !important;
+		max-width: 100% !important;
+		margin: 10px 0 !important;
+		padding: 10px !important;
+		height: auto !important;
+		float: none !important;
+		display: block !important;
+	}
+
+	/* Forms */
+	form,
+	.form-container,
+	.form-group {
+		width: 100% !important;
+		padding: 20px !important;
+		display: flex !important;
+		flex-direction: column !important;
+		gap: 20px !important;
+		margin-bottom: 30px !important;
+	}
+
+	input,
+	textarea,
+	select,
+	.form-control,
+	label {
+		width: 100% !important;
+		margin: 10px 0 !important;
+		padding: 12px !important;
+		display: block !important;
+	}
+
+	/* Add space between form groups */
+	.form-group + .form-group {
+		margin-top: 25px !important;
+	}
+
+	/* Add space after labels */
+	label {
+		margin-bottom: 8px !important;
+		font-weight: bold;
+	}
+
+	/* Tables */
+	table,
+	tbody,
+	tr {
+		width: 100% !important;
+		display: block !important;
+		margin: 10px 0 !important;
+	}
+
+	td,
+	th {
+		display: block !important;
+		width: 100% !important;
+		padding: 8px !important;
+		text-align: left !important;
+	}
+
+	/* Footer */
+	footer,
+	.footer-content,
+	.footer-section {
+		width: 100% !important;
+		padding: 15px 10px !important;
+		text-align: center !important;
+		display: flex !important;
+		flex-direction: column !important;
+		gap: 10px !important;
+	}
+
+	footer * {
+		width: 100% !important;
+		margin: 5px 0 !important;
+		text-align: center !important;
+	}
+
+	/* Navigation */
+
+	/* Buttons */
+	.button,
+	button,
+	.btn {
+		width: 100% !important;
+		margin: 5px 0 !important;
+		padding: 10px !important;
+		display: block !important;
+	}
+
+	/* Fix any grid or flexbox items */
+	[class*="col-"],
+	.grid-item,
+	.flex-item {
+		width: 100% !important;
+		margin: 5px 0 !important;
+		padding: 5px !important;
+	}
+}
