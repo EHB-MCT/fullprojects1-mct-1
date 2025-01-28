@@ -353,19 +353,15 @@
 
 .content3 {
 	flex: 2;
-	z-index: 2;
 }
 
 .vakkenimg2 {
-	/* fix order of the layers */
 	max-width: 600px;
 	height: auto;
 	margin-left: -165px;
-	z-index: 2;
 }
 
 .right-section3 h3 {
-	z-index: 1;
 	text-align: center;
 	padding-top: 40px;
 	margin-right: 400px;

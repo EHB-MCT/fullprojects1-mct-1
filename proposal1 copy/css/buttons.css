@@ -24,6 +24,7 @@ a {
 	text-transform: uppercase;
 	user-select: none;
 	font-family: "Orbitron";
+	z-index: 3;
 }
 
 .btn-secondary:hover {
