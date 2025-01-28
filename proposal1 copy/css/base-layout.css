@@ -161,6 +161,44 @@
 	height: 85vh;
 }
 
+/* contact */
+
+.containercontact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.hexagoncontact {
+	padding: 70px;
+	background-color: #f1f1f1;
+	color: #333;
+	max-width: 40%;
+	box-sizing: border-box;
+	clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
+	text-align: center;
+}
+
+.hexagoncontact h2 {
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.hexagoncontact ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	text-align: center;
+}
+
+.hexagoncontact ul li {
+	margin-bottom: 10px;
+}
+
 @media (max-width: 1024px) {
 	.buttons-row {
 		justify-content: center;
@@ -319,15 +357,12 @@
 }
 
 .vakkenimg2 {
-	/* fix order of the layers */
 	max-width: 600px;
 	height: auto;
 	margin-left: -165px;
-	z-index: 2;
 }
 
 .right-section3 h3 {
-	z-index: 1;
 	text-align: center;
 	padding-top: 40px;
 	margin-right: 400px;
@@ -348,7 +383,6 @@
 }
 
 .right-section3 {
-	z-index: 2;
 	max-width: 600px;
 	height: 400px;
 
