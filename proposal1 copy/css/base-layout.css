@@ -138,6 +138,14 @@
 	margin-bottom: 1.5rem;
 }
 
+.txt-subjects-page {
+	width: 60%;
+	a {
+		color: black;
+		text-decoration: underline;
+	}
+}
+
 .ifr {
 	margin-top: 10px;
 	/* box-sizing: border-box; */
@@ -195,14 +203,6 @@
 .text-apply-container a {
 	margin-left: 50px;
 	margin-right: 50px;
-}
-
-.txt-subjects-page {
-	margin: 50px;
-}
-
-.txt-subjects-page h1 {
-	margin-bottom: 20px;
 }
 
 /*opleiding*/
