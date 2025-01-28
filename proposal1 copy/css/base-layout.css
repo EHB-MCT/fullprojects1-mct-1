@@ -199,6 +199,8 @@
 	margin-bottom: 10px;
 }
 
+/* infodagen */
+
 @media (max-width: 1024px) {
 	.buttons-row {
 		justify-content: center;
