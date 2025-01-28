@@ -162,6 +162,13 @@
 
 /* contact */
 
+.containercontact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
 .hexagoncontact {
 	padding: 70px;
 	background-color: #f1f1f1;
