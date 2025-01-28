@@ -512,6 +512,21 @@ th {
 	padding-bottom: 10px;
 }
 
+/*infodagen*/
+
+.infodagen {
+	clip-path: polygon(
+		50% 0%,
+		0% 50%,
+		0% 100%,
+		100% 100%,
+		0% 10%,
+		100% 100%,
+		100% 00%
+	);
+	background-color: #333;
+}
+
 /*footer*/
 .footer {
 	background-color: #333;
