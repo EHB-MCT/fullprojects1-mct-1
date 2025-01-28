@@ -146,7 +146,7 @@
 	background-color: transparent;
 }
 
-iframe {
+.ifr iframe {
 	width: 100%;
 	border: none;
 	height: 85vh;
