@@ -139,8 +139,9 @@
 }
 
 .ifr {
-	box-sizing: border-box;
-	box-shadow: 0 0 50px whitesmoke, -5px 20px 50px gold, 5px 25px 40px #ef3a37;
+	margin-top: 10px;
+	/* box-sizing: border-box; */
+	/* box-shadow: 0 0 50px whitesmoke, -5px 20px 50px gold, 5px 25px 40px #ef3a37; */
 	border-radius: 5px;
 	background-color: transparent;
 }
@@ -149,7 +150,6 @@ iframe {
 	width: 100%;
 	border: none;
 	height: 85vh;
-	margin-bottom: -45px;
 }
 
 @media (max-width: 1024px) {
