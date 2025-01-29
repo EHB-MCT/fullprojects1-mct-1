@@ -3,6 +3,7 @@
 	width: 100%;
 	padding: 4rem 0;
 	overflow: hidden;
+	margin-top: -350px;
 }
 .info-days-wrapper h2 {
 	text-align: center;
@@ -11,7 +12,7 @@
 
 .info-days-photo {
 	position: relative;
-	margin-bottom: -700px;
+	margin-bottom: -340px;
 	margin-left: -210px;
 	width: 95%;
 	height: auto;
@@ -136,7 +137,8 @@
 }
 @media screen and (max-width: 480px) {
 	.info-days-wrapper {
-		padding: 2rem 0;
+		padding: 10px;
+		align-items: center;
 	}
 
 	.info-days-wrapper h2 {
@@ -146,7 +148,7 @@
 	}
 
 	.info-days-photo {
-		margin-bottom: -350px;
+		margin-bottom: -320px;
 		margin-left: 0;
 		width: 100%;
 	}
