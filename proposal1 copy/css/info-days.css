@@ -139,6 +139,7 @@
 	.info-days-wrapper {
 		padding: 10px;
 		align-items: center;
+		margin-top: 150px;
 	}
 
 	.info-days-wrapper h2 {
@@ -148,7 +149,7 @@
 	}
 
 	.info-days-photo {
-		margin-bottom: -320px;
+		margin-bottom: -480px;
 		margin-left: 0;
 		width: 100%;
 	}
