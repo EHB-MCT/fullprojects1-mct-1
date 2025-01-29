@@ -51,6 +51,7 @@
 .list-section {
 	position: relative;
 	padding: 70px;
+	padding-top: 160px;
 	background-color: #f1f1f1;
 	color: #333;
 	max-width: 40%;
