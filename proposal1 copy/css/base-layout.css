@@ -19,7 +19,6 @@
 }
 
 .text-list-container {
-	gap: 40px;
 	flex: 1;
 	align-self: center;
 }
@@ -44,13 +43,15 @@
 	}
 
 	p {
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
 }
 
 .list-section {
 	position: relative;
 	padding: 70px;
+	padding-top: 140px;
+	margin-left: 100px;
 	background-color: #f1f1f1;
 	color: #333;
 	max-width: 40%;
@@ -67,29 +68,23 @@
 	ul {
 		list-style: none;
 		padding: 10px;
-		margin-left: 20px;
 		font-size: 14px;
 		text-align: center;
 
 		li {
 			margin-bottom: 10px;
-		}
-		li:nth-child(even) {
-			text-align: right;
-		}
-		li:nth-child(odd) {
-			text-align: left;
+			color: #333;
 		}
 	}
 }
 
 .image-section {
-	margin-left: 24%;
-	margin-top: 80px;
+	margin-left: 25%;
+	margin-top: 14em;
 	position: absolute;
 	z-index: 2;
 	img {
-		width: 750px;
+		width: 575px;
 		filter: brightness(110%) saturate(112%) hue-rotate(-3deg);
 	}
 }
@@ -107,7 +102,7 @@
 	margin-bottom: 3rem;
 }
 .text-apply h1 {
-	margin-right: 140px;
+	margin-right: 90px;
 }
 
 .text-apply p {
@@ -127,16 +122,18 @@
 .button-item {
 	flex: 1;
 	min-width: 250px;
-	text-align: center;
+	text-align: left;
 	padding: 1rem;
 }
 
 .button-item h4 {
 	margin-bottom: 1rem;
+	text-align: left;
 }
 
 .button-item p {
 	margin-bottom: 1.5rem;
+	text-align: left;
 }
 
 .txt-subjects-page {
@@ -197,37 +194,6 @@
 
 .hexagoncontact ul li {
 	margin-bottom: 10px;
-}
-
-/* infodagen */
-
-@media (max-width: 1024px) {
-	.buttons-row {
-		justify-content: center;
-	}
-
-	.button-item {
-		flex: 0 1 calc(50% - 2rem);
-	}
-}
-
-@media (max-width: 600px) {
-	.button-item {
-		flex: 0 1 100%;
-	}
-}
-
-/* Make it responsive */
-@media (max-width: 1024px) {
-	.text-apply-container {
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-@media (max-width: 600px) {
-	.text-apply-container {
-		grid-template-columns: 1fr;
-	}
 }
 
 .text-apply-container p {
@@ -335,6 +301,7 @@
 .opleiding h3 {
 	text-align: left;
 	margin-left: 10px;
+	color: #ef3a37;
 }
 
 /*vakken*/
@@ -465,6 +432,7 @@
 }
 .content_enrollment p {
 	line-height: 3.5rem;
+	color: #333;
 }
 
 table {
@@ -530,15 +498,12 @@ th {
 	);
 	background-color: #333;
 }
-.infodagen h2 {
-	text-align: right;
+.infodagen li {
+	color: whitesmoke;
 }
-
-.infodagen p,
-li {
-	color: #f5f5f5;
+.infodagen p {
+	color: whitesmoke;
 }
-
 .content5 {
 	display: flex;
 }
