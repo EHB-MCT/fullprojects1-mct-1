@@ -15,7 +15,7 @@
 	justify-content: space-between;
 	align-items: flex-start;
 	gap: 5px;
-	padding-bottom: 50px;
+	padding-bottom: 120px;
 }
 
 .text-list-container {
@@ -171,7 +171,7 @@
 }
 
 .hexagoncontact {
-	padding: 70px;
+	padding: 150px;
 	background-color: #f1f1f1;
 	color: #333;
 	max-width: 40%;
@@ -438,12 +438,12 @@
 	margin-top: 40px;
 }
 .vakken1 {
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
-.vakken1 h2 {
+.vakkenh2 {
 	text-align: left;
-	margin-left: 150px;
+	margin-left: 35em;
 }
 
 .vakkenimg3 {
@@ -514,7 +514,10 @@ th {
 
 /*infodagen*/
 
-.infodagen {
+.container5 {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 	clip-path: polygon(
 		50% 0%,
 		0% 50%,
@@ -525,6 +528,23 @@ th {
 		100% 00%
 	);
 	background-color: #333;
+	
+}
+.infodagen {
+	
+}
+
+.infodagen p {
+	color: #f5f5f5;
+}
+
+.infodagen li {
+	color: #f5f5f5;
+}
+
+.content5 {
+	display: flex;
+	margin-left: -10%;
 }
 
 /*footer*/
