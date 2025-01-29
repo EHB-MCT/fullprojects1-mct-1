@@ -30,14 +30,31 @@
 	padding: 21px 0px;
 	box-sizing: border-box;
 	overflow: hidden;
+	transition: all 0.3s ease;
 }
 
-/* .menu-item:not(.logo)::after {
+.menu-item:not(.logo)::before {
 	content: "";
 	position: absolute;
 	top: 0;
-	left: 10px;
-} */
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background-color: #ef3a37;
+	transform: translateY(-100%);
+	transition: transform 0.3s ease;
+}
+
+.menu-item:not(.logo):hover::before,
+.menu-item:not(.logo).active::before {
+	transform: translateY(0);
+}
+
+.menu-item:not(.logo):hover,
+.menu-item:not(.logo).active {
+	background-color: #f0f0f0;
+	color: #ef3a37;
+}
 
 .logo {
 	padding: 0;

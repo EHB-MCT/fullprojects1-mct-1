@@ -515,9 +515,10 @@ th {
 /*infodagen*/
 
 .container5 {
-	width: 100%;
-	max-width: 1200px;
-	margin: 0 auto;
+	max-width: 90%;
+	height: 800px;
+	width: auto;
+
 	clip-path: polygon(
 		50% 0%,
 		0% 50%,
@@ -528,23 +529,24 @@ th {
 		100% 00%
 	);
 	background-color: #333;
-	
 }
-.infodagen {
-	
-}
-
-.infodagen p {
-	color: #f5f5f5;
+.infodagen h2 {
+	text-align: right;
 }
 
-.infodagen li {
+.infodagen p,
+li {
 	color: #f5f5f5;
 }
 
 .content5 {
 	display: flex;
-	margin-left: -10%;
+}
+
+.infoimg {
+	height: 400px;
+	width: auto;
+	position: absolute;
 }
 
 /*footer*/
