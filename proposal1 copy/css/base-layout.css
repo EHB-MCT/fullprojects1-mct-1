@@ -910,7 +910,7 @@ th {
 			font-size: 0px;
 		}
 		.btn-secondary {
-			margin-left: 80px !important;
+			margin-left: 95px !important;
 			align-items: center;
 		}
 	}
@@ -1045,6 +1045,13 @@ th {
 		margin-top: 232px;
 		margin-left: 280px !important;
 	}
+
+	.meerinfo a {
+		margin-left: 225px !important;
+	}
+	.meerinfo1 a {
+		margin-right: 225px !important;
+	}
 	.vakkenh2 {
 		text-align: center;
 	}
@@ -1066,6 +1073,26 @@ th {
 	}
 	.left {
 		display: none;
+	}
+
+	table {
+		border-collapse: collapse !important;
+		max-width: 80% !important;
+		border-spacing: 0 !important;
+		width: 100% !important;
+		border: 1px solid #ddd !important;
+	}
+
+	th,
+	td {
+		text-align: left;
+		padding: 8px;
+	}
+
+	.right p,
+	li,
+	h4 {
+		margin: 5px;
 	}
 
 	/* Social section */
