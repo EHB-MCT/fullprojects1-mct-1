@@ -32,7 +32,7 @@
 	width: 80%;
 	position: relative;
 	box-sizing: border-box;
-	clip-path: polygon(78% 0%, 90% 50%, 78% 100%, 0% 100%, 0 0);
+	clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 0 0);
 
 	.txtbs {
 		width: 80%;
