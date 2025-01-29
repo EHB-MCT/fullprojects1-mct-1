@@ -19,7 +19,6 @@
 }
 
 .text-list-container {
-	gap: 40px;
 	flex: 1;
 	align-self: center;
 }
@@ -44,7 +43,7 @@
 	}
 
 	p {
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
 }
 
@@ -68,7 +67,6 @@
 	ul {
 		list-style: none;
 		padding: 10px;
-		margin-left: 20px;
 		font-size: 14px;
 		text-align: center;
 
@@ -79,12 +77,12 @@
 }
 
 .image-section {
-	margin-left: 24%;
-	margin-top: 80px;
+	margin-left: 25%;
+	margin-top: 14em;
 	position: absolute;
 	z-index: 2;
 	img {
-		width: 750px;
+		width: 575px;
 		filter: brightness(110%) saturate(112%) hue-rotate(-3deg);
 	}
 }
