@@ -15,7 +15,7 @@
 	justify-content: space-between;
 	align-items: flex-start;
 	gap: 5px;
-	padding-bottom: 50px;
+	padding-bottom: 120px;
 }
 
 .text-list-container {
@@ -171,7 +171,7 @@
 }
 
 .hexagoncontact {
-	padding: 70px;
+	padding: 150px;
 	background-color: #f1f1f1;
 	color: #333;
 	max-width: 40%;
@@ -438,12 +438,12 @@
 	margin-top: 40px;
 }
 .vakken1 {
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
-.vakken1 h2 {
+.vakkenh2 {
 	text-align: left;
-	margin-left: 150px;
+	margin-left: 35em;
 }
 
 .vakkenimg3 {
