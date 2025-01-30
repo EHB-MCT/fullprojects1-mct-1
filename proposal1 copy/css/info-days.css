@@ -11,9 +11,10 @@
 }
 
 .info-days-photo {
-	position: absolute;
-	margin-top: -272px !important;
+	position: relative;
+	margin-bottom: -670px;
 	margin-left: -210px;
+	margin-top: -300px !important;
 	width: 95%;
 	height: auto;
 
