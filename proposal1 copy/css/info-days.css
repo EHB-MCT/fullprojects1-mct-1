@@ -3,7 +3,7 @@
 	width: 100%;
 	padding: 4rem 0;
 	overflow: hidden;
-	margin-top: -350px;
+	margin-top: 0px;
 }
 .info-days-wrapper h2 {
 	text-align: center;
@@ -11,8 +11,8 @@
 }
 
 .info-days-photo {
-	position: relative;
-	margin-bottom: -340px;
+	position: absolute;
+	margin-top: -272px !important;
 	margin-left: -210px;
 	width: 95%;
 	height: auto;
@@ -114,7 +114,7 @@
 }
 
 .opendeurdagen {
-	margin-left: 150px;
+	margin-left: 70px;
 }
 
 /* Responsive Design */
