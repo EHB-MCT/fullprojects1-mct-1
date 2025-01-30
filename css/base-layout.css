@@ -175,19 +175,12 @@
 	}
 
 	div:not(:first-child) {
-		margin: 0 10% 30px;
-		border-left: 4px solid #ef3a37;
-		padding-left: 5px;
+		margin: 0 20% 30px;
 	}
 
 	div:nth-child(odd):not(:first-child) {
 		text-align: right;
 		margin-left: auto;
-
-		border-right: 4px solid #ef3a37;
-		border-left: unset;
-		padding-right: 5px;
-		padding-left: unset;
 	}
 }
 
@@ -1080,11 +1073,11 @@ th {
 		}
 	}
 	.opl-img {
-		margin-top: -1020px !important;
+		margin-top: -1000px !important;
 		margin-left: 150px !important;
 	}
 	.opl-img1 {
-		margin-top: -1000px;
+		margin-top: -980px;
 		margin-left: -100px !important;
 	}
 
@@ -1095,7 +1088,7 @@ th {
 
 	.image-section3 {
 		position: absolute;
-		margin-top: 240px;
+		margin-top: 280px;
 		margin-left: -375px !important;
 	}
 	.content3 {
@@ -1124,7 +1117,7 @@ th {
 		}
 	}
 	.container3 .image-section {
-		margin-top: 232px;
+		margin-top: 215px;
 		margin-left: 280px !important;
 	}
 
