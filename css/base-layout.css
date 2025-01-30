@@ -175,7 +175,7 @@
 	}
 
 	div:not(:first-child) {
-		margin: 0 20%;
+		margin: 0 20% 30px;
 	}
 
 	div:nth-child(odd):not(:first-child) {
