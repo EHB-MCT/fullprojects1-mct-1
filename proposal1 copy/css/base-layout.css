@@ -248,8 +248,14 @@
 
 .left-section4 p {
 	margin: 10px;
-	margin-left: 10px;
-	margin-right: 400px;
+	margin-left: 40px;
+}
+
+.text1 {
+	margin-right: 550px;
+	margin-bottom: 50px;
+	margin-top: 40px;
+	margin-left: 60px;
 }
 
 .opleiding h2 {
@@ -293,14 +299,15 @@
 
 .spatie {
 	padding: 10px;
-	margin-left: 190px;
+	margin-left: 250px;
+	margin-right: 250px;
 }
 .opleiding {
 	margin-top: 150px;
 }
-.opleiding h3 {
+.opleiding h4 {
 	text-align: left;
-	margin-left: 10px;
+	margin-left: 40px;
 	color: #ef3a37;
 }
 
@@ -414,11 +421,10 @@
 }
 
 .vakkenimg3 {
-	margin-left: 450px;
-	margin-top: 0px;
-	height: 400px;
-	width: auto;
-	margin-top: 22px;
+	margin-left: 650px;
+	height: auto;
+	width: 600px;
+	margin-top: -280px;
 }
 
 /* kosten */
