@@ -137,10 +137,50 @@
 }
 
 .txt-subjects-page {
-	width: 60%;
+	width: 50%;
 	a {
 		color: black;
 		text-decoration: underline;
+	}
+}
+
+.core {
+	text-align: left;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	h3 {
+		color: black;
+	}
+
+	p {
+		color: black;
+	}
+
+	hr {
+		border: none;
+		height: 2px;
+		background-color: rgba(0, 0, 0, 0.119);
+		margin: 0 0 20px 0;
+		width: 60%;
+	}
+
+	div:first-child {
+		width: 60%;
+	}
+
+	div {
+		width: 50%;
+	}
+
+	div:not(:first-child) {
+		margin: 0 20%;
+	}
+
+	div:nth-child(odd):not(:first-child) {
+		text-align: right;
+		margin-left: auto;
 	}
 }
 
