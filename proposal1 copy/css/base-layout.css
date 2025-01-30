@@ -248,8 +248,14 @@
 
 .left-section4 p {
 	margin: 10px;
-	margin-left: 10px;
-	margin-right: 400px;
+	margin-left: 40px;
+}
+
+.text1 {
+	margin-right: 550px;
+	margin-bottom: 50px;
+	margin-top: 40px;
+	margin-left: 60px;
 }
 
 .opleiding h2 {
@@ -293,14 +299,15 @@
 
 .spatie {
 	padding: 10px;
-	margin-left: 190px;
+	margin-left: 250px;
+	margin-right: 250px;
 }
 .opleiding {
 	margin-top: 150px;
 }
-.opleiding h3 {
+.opleiding h4 {
 	text-align: left;
-	margin-left: 10px;
+	margin-left: 40px;
 	color: #ef3a37;
 }
 
@@ -377,7 +384,7 @@
 		100% 10%,
 		100% 100%,
 		0% 100%,
-		0% -70%,
+		0% -100%,
 		100% 50%
 	);
 	background-color: #333;
@@ -402,7 +409,7 @@
 .meerinfo1 {
 	margin-left: 60px;
 	padding: 10px;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 .vakken1 {
 	margin-top: 100px;
@@ -414,11 +421,10 @@
 }
 
 .vakkenimg3 {
-	margin-left: 450px;
-	margin-top: 0px;
-	height: 400px;
-	width: auto;
-	margin-top: 22px;
+	margin-left: 650px;
+	height: auto;
+	width: 600px;
+	margin-top: -280px;
 }
 
 /* kosten */
@@ -461,19 +467,19 @@ th {
 	min-height: auto;
 	width: 400px;
 	margin-left: 700px;
-	margin-top: -300px;
-	margin-bottom: 50px;
+	margin-top: -150px;
+	margin-bottom: 10px;
 }
 
 .left img {
-	height: 600px;
+	height: 450px;
 	width: auto;
-	margin-left: -350px;
-	margin-top: 140px;
+	margin-left: -250px;
+	margin-top: 30px;
 }
 
 .right {
-	margin-top: 50px;
+	margin-top: -10px;
 }
 .right p {
 	line-height: 2rem;
@@ -481,38 +487,6 @@ th {
 }
 
 /*infodagen*/
-
-.container5 {
-	max-width: 90%;
-	height: 800px;
-	width: auto;
-
-	clip-path: polygon(
-		50% 0%,
-		0% 50%,
-		0% 100%,
-		100% 100%,
-		0% 10%,
-		100% 100%,
-		100% 00%
-	);
-	background-color: #333;
-}
-.infodagen li {
-	color: whitesmoke;
-}
-.infodagen p {
-	color: whitesmoke;
-}
-.content5 {
-	display: flex;
-}
-
-.infoimg {
-	height: 400px;
-	width: auto;
-	position: absolute;
-}
 
 /*contact*/
 
