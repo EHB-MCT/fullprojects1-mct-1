@@ -1,3 +1,2 @@
-https://media1.tenor.com/m/-ks8-pPuX4sAAAAd/megamind-oh.gif
-
+![](https://github.com/EHB-MCT/fullprojects1-mct-1/main/images/tenog.gif)
 [website](https://refactored-dollop-zw5ne1k.pages.github.io/)
