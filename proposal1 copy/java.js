@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-	const burgerMenu = document.querySelector(".burger-menu");
-	const menu = document.querySelector(".menu");
-	const menuItems = document.querySelectorAll(".menu-item:not(.logo)");
+	let burgerMenu = document.querySelector(".burger-menu");
+	let menu = document.querySelector(".menu");
+	let menuItems = document.querySelectorAll(".menu-item:not(.logo)");
 
 	// Get all sections that correspond to menu items
-	const sections = {};
+	let sections = {};
 	menuItems.forEach((item) => {
-		const href = item.getAttribute("href");
+		let href = item.getAttribute("href");
 		if (href.startsWith("#")) {
-			const sectionId = href.substring(1);
-			const section = document.getElementById(sectionId);
+			let sectionId = href.substring(1);
+			let section = document.getElementById(sectionId);
 			if (section) {
 				sections[sectionId] = section;
 			}
@@ -18,11 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// Function to determine which section is currently in view
 	function getCurrentSection() {
-		const scrollPosition = window.scrollY + window.innerHeight / 3;
+		let scrollPosition = window.scrollY + window.innerHeight / 3;
 
-		for (const [id, section] of Object.entries(sections)) {
-			const sectionTop = section.offsetTop;
-			const sectionBottom = sectionTop + section.offsetHeight;
+		for (let [id, section] of Object.entries(sections)) {
+			let sectionTop = section.offsetTop;
+			let sectionBottom = sectionTop + section.offsetHeight;
 
 			if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
 				return id;
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// Function to update active menu item
 	function updateActiveMenuItem() {
-		const currentSection = getCurrentSection();
+		let currentSection = getCurrentSection();
 		menuItems.forEach((item) => {
 			item.classList.remove("active");
 			if (item.getAttribute("href") === `#${currentSection}`) {
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// Set initial active state based on current URL hash
 	function setInitialActiveState() {
-		const hash = window.location.hash || "#Home";
+		let hash = window.location.hash || "#Home";
 		menuItems.forEach((item) => {
 			if (item.getAttribute("href") === hash) {
 				item.classList.add("active");
