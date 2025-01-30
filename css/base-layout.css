@@ -1273,4 +1273,25 @@ th {
 	}
 
 	/*contact*/
+	.container6 {
+		width: 100%;
+		position: relative;
+		padding: 10px;
+		margin-left: 15px !important;
+
+		h2 {
+			font-size: 14pt;
+			text-align: center !important;
+		}
+		p {
+			font-size: 10pt;
+		}
+		li {
+			text-align: center !important;
+		}
+	}
+}
+.ins {
+	font-size: 20pt;
+	text-align: center;
 }
