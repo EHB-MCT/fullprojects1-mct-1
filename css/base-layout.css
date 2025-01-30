@@ -175,12 +175,19 @@
 	}
 
 	div:not(:first-child) {
-		margin: 0 20% 30px;
+		margin: 0 10% 30px;
+		border-left: 4px solid #ef3a37;
+		padding-left: 5px;
 	}
 
 	div:nth-child(odd):not(:first-child) {
 		text-align: right;
 		margin-left: auto;
+
+		border-right: 4px solid #ef3a37;
+		border-left: unset;
+		padding-right: 5px;
+		padding-left: unset;
 	}
 }
 
